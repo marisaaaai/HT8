@@ -38,7 +38,7 @@ public class main{
 	}
         System.out.println("Implementacion con JCF PriorityQueue:");
         PriorityQueue<String> pQueue = new PriorityQueue<String>();
-        System.out.println(dataArrayList.size());
+        System.out.println("--------------------------------------------------");
         for(int i=0;i<dataArrayList.size();i++){
             pQueue.add(dataArrayList.get(i));
         }
