@@ -51,7 +51,7 @@ public class main{
         System.out.println("Implementacion con clase pacientes, comparable y Vector heap :)");
         pacientes p = new pacientes(dataArrayList);
         for(int i=0;i<p.result().size();i++){
-            System.out.println(p.result().elementAt(i));
+            System.out.println(p.result().remove());
         }
     }
 }			
