@@ -9,7 +9,7 @@ Vector Heap*/
 import java.util.*;
 
 
-public class VectorHeap<E extends Comparable<E>>{
+public class VectorHeap<E extends Comparable<E>> implements priorityqueue<E>{
 
 	protected Vector<E> data; // the data, kept in heap order
 
@@ -20,9 +20,8 @@ public class VectorHeap<E extends Comparable<E>>{
 
 	public VectorHeap(Vector<E> v){
 	// post: constructs a new priority queue from an unordered vector
-		int i;
 		data = new Vector<E>(v.size()); // we know ultimate size
-		for (i = 0; i < v.size(); i++){ // add elements to heap
+		for (int i = 0; i < v.size(); i++){ // add elements to heap
                     add(v.get(i));
 		}
 	}
