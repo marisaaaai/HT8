@@ -43,7 +43,6 @@ public class main{
             System.out.println(i);
             System.out.println(dataArrayList.get(i));
             pQueue.add(dataArrayList.get(i));
-            i++;
         }
         System.out.println("La lista priorizada es la siguiente:");
         System.out.println(pQueue);
