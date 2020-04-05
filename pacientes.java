@@ -26,7 +26,7 @@ public class pacientes<E extends Comparable<E>>{
         Object array[]= letras.toArray();
         for(int i=0;i<array.length;i++){
             int ubicacion = info2.indexOf(array[i]);
-            String informacion = info2.get(ubicacion) + ", "+info2.get(ubicacion+1) +" con: "+info2.get(ubicacion+2);
+            String informacion = info2.get(ubicacion) + ", "+info2.get(ubicacion+1);
             order.add(informacion);      
         }
         for(int i=0;i<order.size();i++){
