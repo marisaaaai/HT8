@@ -40,11 +40,12 @@ public class main{
         PriorityQueue<String> pQueue = new PriorityQueue<String>();
         System.out.println(dataArrayList.size());
         for(int i=0;i<dataArrayList.size();i++){
-            System.out.println(i);
-            System.out.println(dataArrayList.get(i));
             pQueue.add(dataArrayList.get(i));
         }
         System.out.println("La lista priorizada es la siguiente:");
-        System.out.println(pQueue);
+        while(!pQueue.isEmpty()){
+            System.out.println(pQueue.poll() + " ");
+        }
+        System.out.println("\n");
     }
 }			
