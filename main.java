@@ -20,6 +20,7 @@ public class main{
                 linea = s.nextLine();
                 String data[] = linea.split(",");
                 String infoPatient = data[2]+","+ data[1]+","+data[0];
+                System.out.println(infoPatient);
                 dataArrayList.add(infoPatient);
             }
 	}
