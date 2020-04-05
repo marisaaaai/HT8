@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.*; 
 import java.util.Collection;
 public class main{
+    @SuppressWarnings({ "rawtypes", "unchecked" })
     public static void main(String[]args){
 	ArrayList<String> dataArrayList = new ArrayList<String>();
 	Scanner s = null;
