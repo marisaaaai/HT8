@@ -47,5 +47,7 @@ public class main{
             System.out.println(pQueue.poll() + " ");
         }
         System.out.println("\n");
+        System.out.println("Implementacion con clase pacientes, comparable y Vector heap :)");
+        pacientes p = new pacientes(dataArrayList);
     }
 }			
