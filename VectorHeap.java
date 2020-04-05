@@ -101,15 +101,23 @@ public class VectorHeap<E extends Comparable<E>> implements priorityqueue<E>{
 		if (data.size() > 1) pushDownRoot(0);
 		return minVal;
 	}
+        // pre: !isEmpty
+        // post: devuelve el primer elemento del vector
         public E getFirst(){
             return data.elementAt(0);
         }
+        //pre:
+        //post: devuelve el tamaño del vector
         public int size(){
             return data.size();
         }
+        //pre:
+        //post devuelve true si el vector esta vacio y false si el vector tiene algun elemento
         public boolean isEmpty(){
             return data.isEmpty();
         }
+        //pre: !isEmpty
+        //post: devuelve el elemento en la posicon i
         public E elementAt(int i){
             return data.elementAt(i);
         }
