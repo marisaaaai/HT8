@@ -23,7 +23,7 @@ public class VectorHeap<E extends Comparable<E>>{
 		int i;
 		data = new Vector<E>(v.size()); // we know ultimate size
 		for (i = 0; i < v.size(); i++){ // add elements to heap
-			add(v.get(i));
+                    add(v.get(i));
 		}
 	}
 	protected static int parent(int i){
