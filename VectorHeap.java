@@ -9,7 +9,7 @@ Vector Heap*/
 import java.util.*;
 
 
-public class VectorHeap<E extends Comparable<E>> implements priorityqueue<E>{
+public class VectorHeap<E extends Comparable<E>>{
 
 	protected Vector<E> data; // the data, kept in heap order
 
