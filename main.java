@@ -18,8 +18,9 @@ public class main{
 			s = Scanner(fichero);
 			while(s.hasNextLine()){
 				linea = s.nextLine();
-				Sring[] data = linea.split(",");
-				dataArrayList.add(data[0],data[1],data[2]);
+			    data [] = linea.split(",");
+				String infoPatient = data[2]+","+ data[1]+","+data[0];
+				dataArrayList.add(infoPatient);
 			}
 		}
 		catch(Exception ex){

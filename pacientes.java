@@ -3,22 +3,10 @@ Maria Isabel Montoya 19169
 Hoja de Trabajo No. 8
 pacientes*/
 public class pacientes{
-	private nombre;
-	private enfermedad;
-	private prioridad;
+	private ArrayList info;
 	
-	public pacientes(String n, String e, String p){
-		this.nombre=n;
-		this.enfermedad=e;
-		this.prioridad=p;
+	public pacientes(ArrayList<String> patients){
+		this.info = patients;
 	}
-	public String getPrioridad(){
-		return prioridad;
-	}
-	public String getEnfermedad(){
-		return enfermedad;
-	}
-	public String getPrioridad(){
-		return prioridad;
-	}
+
 }

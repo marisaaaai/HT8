@@ -1,3 +1,14 @@
+/* Universidad del Valle de Guatemala
+Maria Isabel Montoya 19169
+Hoja de Trabajo No. 8
+Vector Heap*/
+/**
+* Codigo extraido de: Duane A. Bailey(18/03/2020)Data Structures in Java for the Principled Programmer. Seventh edition (source code), Williams College
+*
+*/
+import java.util.*;
+import java.util.Collection;
+
 public class VectorHeap<E extends Comparable<E>> implements PriorityQueue<E>{
 
 	protected Vector<E> data; // the data, kept in heap order
