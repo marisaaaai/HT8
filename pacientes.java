@@ -4,6 +4,7 @@ Hoja de Trabajo No. 8
 pacientes*/
 import java.util.ArrayList; 
 import java.util.*;
+@SuppressWarnings({ "rawtypes", "unchecked" })
 
 public class pacientes<E extends Comparable<E>>{
     private ArrayList<String> info;
