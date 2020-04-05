@@ -105,4 +105,7 @@ public class VectorHeap<E extends Comparable<E>> implements priorityqueue<E>{
         public E getFirst(){
             return data.elementAt(0);
         }
+        public int size(){
+            return data.size();
+        }
 }
