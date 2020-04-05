@@ -7,9 +7,9 @@ Vector Heap*/
 *
 */
 import java.util.*;
-import java.util.Collection;
 
-public class VectorHeap<E extends Comparable<E>> implements PriorityQueue<E>{
+
+public class VectorHeap<E extends Comparable<E>>{
 
 	protected Vector<E> data; // the data, kept in heap order
 
@@ -102,4 +102,7 @@ public class VectorHeap<E extends Comparable<E>> implements PriorityQueue<E>{
 		if (data.size() > 1) pushDownRoot(0);
 		return minVal;
 	}
+        public E getFirst(){
+            return data.elementAt(0);
+        }
 }
