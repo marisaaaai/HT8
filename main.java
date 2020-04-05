@@ -19,7 +19,7 @@ public class main{
             while(s.hasNextLine()){
                 linea = s.nextLine();
                 String data[] = linea.split(",");
-                String infoPatient = data[2]+", "+ data[0]+", "+data[1];
+                String infoPatient = data[2]+", "+ data[0]+" con "+data[1];
                 dataArrayList.add(infoPatient);
             }
 	}
