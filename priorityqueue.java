@@ -16,7 +16,5 @@ public interface priorityqueue<E extends Comparable<E>>{
 	
     public int size();
 	// post: returns number of elements within queue
-	
-    public void clear();
-	// post: removes all elements from queue
+
 }
