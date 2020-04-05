@@ -48,7 +48,7 @@ public class main{
         }
         System.out.println("--------------------------------------------------");
         System.out.println("Implementacion con clase pacientes, comparable y Vector heap :)");
-        pacientes p = new pacientes(dataArrayList2);
+        pacientes p = new pacientes(dataArrayList);
         VectorHeap resultado = p.result();
         for(int i=0;i<resultado.size();i++){
             System.out.println(resultado.size());
