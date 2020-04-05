@@ -10,9 +10,9 @@ public class pacientes{
 	
     public pacientes(ArrayList<String> patients){
 	this.info = patients;
-        VectorHeap data = new VectorHeap();
     }
     public Vector<String> result(){
+        VectorHeap data = new VectorHeap();
         for(int i=0;i<info.size();i++){
             data.add(info.get(i));
         }
