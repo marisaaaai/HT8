@@ -20,7 +20,6 @@ public class main{
                 linea = s.nextLine();
                 String data[] = linea.split(",");
                 String infoPatient = data[2]+","+ data[1]+","+data[0];
-                System.out.println(infoPatient);
                 dataArrayList.add(infoPatient);
             }
 	}
@@ -46,7 +45,7 @@ public class main{
         }
         System.out.println("La lista priorizada es la siguiente:");
         while(!pQueue.isEmpty()){
-            System.out.println(pQueue.poll() + " ");
+            System.out.println(pQueue);
         }
     }
 }			
