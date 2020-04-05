@@ -18,11 +18,10 @@ public class pacientes<E extends Comparable<E>>{
     public VectorHeap result(){
         VectorHeap data = new VectorHeap();
         for(int i=0;i<info.size();i++){
-            String letters[] = info.get(i).split(",");
+            String letters[] = (info.get(i)).split(",");
             letras.add(letters[0]);
             info2.add(letters[0]);
             info2.add(letters[1]);
-            info2.add(letters[2]);
         }
         Object array[]= letras.toArray();
         for(int i=0;i<array.length;i++){
