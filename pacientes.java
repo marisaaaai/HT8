@@ -5,7 +5,7 @@ pacientes*/
 import java.util.ArrayList; 
 import java.util.*;
 
-public class pacientes{
+public class pacientes<E extends Comparable<E>>{
     private ArrayList<String> info;
 	
     public pacientes(ArrayList<String> patients){
