@@ -111,4 +111,7 @@ public class VectorHeap<E extends Comparable<E>> implements priorityqueue<E>{
         public boolean isEmpty(){
             return data.isEmpty();
         }
+        public E elementAt(int i){
+            return data.elementAt(i);
+        }
 }
