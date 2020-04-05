@@ -51,6 +51,7 @@ public class main{
         pacientes p = new pacientes(dataArrayList);
         for(int i=0;i<p.result().size();i++){
             System.out.println(p.result().elementAt(i));
+            i++;
         }
     }
 }			
